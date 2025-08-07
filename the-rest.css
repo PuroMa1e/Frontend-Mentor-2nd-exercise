@@ -62,6 +62,7 @@ button{
     font-family: Inter;
     color: white;
     font-weight: 600;
+    cursor: pointer;
 }
  
 button:active{

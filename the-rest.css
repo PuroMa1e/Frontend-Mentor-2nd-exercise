@@ -1,0 +1,101 @@
+@font-face {
+
+    font-family: Inter;
+    src: url(assets/fonts/Inter-VariableFont_slnt\,wght.ttf);
+}
+
+@font-face {
+
+    font-family: Inter;
+    src: url(assets/fonts/static/Inter-Bold.ttf);
+    font-weight: bold;
+}
+
+@font-face {
+
+    font-family: Inter;
+    src: url(assets/fonts/static/Inter-SemiBold.ttf);
+    font-weight: 600;
+}
+
+.avatar{
+
+    height: 80px;
+    width: 80px;
+    border-radius: 40px;
+    margin-top: 30px;
+    margin-bottom: 8px;
+
+}
+
+.main{
+
+    display: flex;
+    flex-direction: column;
+    margin: 200px auto;
+    justify-content: center;
+    align-items: center;
+}
+
+.div1{
+
+    height: 482px;
+    width: 320px;
+    background-color: hsl(0, 0%, 12%);
+    text-align: center;
+    border-radius: 6px;
+}
+
+div{
+
+    text-align: center;
+}
+
+button{
+
+    background-color: hsl(0, 0%, 20%);
+    margin-top: 13px;
+    border-radius: 6px;
+    width: 230px;
+    height: 32px;
+    border: none;
+    font-family: Inter;
+    color: white;
+    font-weight: 600;
+}
+ 
+button:active{
+
+    background-color: hsl(75, 94%, 57%);
+    transition: 0.1s;
+}
+
+.div2, .div3, .div4{
+
+
+    border-radius: 4px;
+    width: 230px;
+    margin: 10px auto;
+    color: white;
+    font-size: 10px;
+}
+
+.div3{
+
+    color: hsl(75, 94%, 57%);
+    margin-bottom: 23px;
+    font-weight: 600;
+}
+
+.div2{
+
+font-weight: 700;
+font-size: 16px;
+}
+
+.div4{
+
+    font-weight: 400;
+}
+
+div{font-family: Inter;}
